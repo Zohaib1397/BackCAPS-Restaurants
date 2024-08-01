@@ -11,7 +11,7 @@ import SwiftUI
 struct BackCAPS_RestaurantsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RestaurantTabView()
         }
     }
 }

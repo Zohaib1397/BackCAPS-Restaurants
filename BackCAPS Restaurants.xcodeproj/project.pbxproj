@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52AEFA832C5776B50066ABF2 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 52AEFA822C5776B50066ABF2 /* Lottie */; };
+		52AEFA872C5778C50066ABF2 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEFA862C5778C50066ABF2 /* LottieView.swift */; };
+		52AEFA8A2C5779380066ABF2 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 52AEFA882C5779380066ABF2 /* home.json */; };
+		52AEFA8F2C57AF7B0066ABF2 /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEFA8E2C57AF7B0066ABF2 /* CategoryCard.swift */; };
+		52AEFA922C58FC460066ABF2 /* PracticeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEFA912C58FC460066ABF2 /* PracticeFile.swift */; };
 		52E084352C575F66008C5159 /* BackCAPS_RestaurantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084342C575F66008C5159 /* BackCAPS_RestaurantsApp.swift */; };
-		52E084372C575F66008C5159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084362C575F66008C5159 /* ContentView.swift */; };
+		52E084372C575F66008C5159 /* RestaurantTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084362C575F66008C5159 /* RestaurantTabView.swift */; };
 		52E084392C575F68008C5159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E084382C575F68008C5159 /* Assets.xcassets */; };
 		52E0843C2C575F68008C5159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E0843B2C575F68008C5159 /* Preview Assets.xcassets */; };
 		52E084462C575F69008C5159 /* BackCAPS_RestaurantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084452C575F69008C5159 /* BackCAPS_RestaurantsTests.swift */; };
 		52E084502C575F69008C5159 /* BackCAPS_RestaurantsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0844F2C575F69008C5159 /* BackCAPS_RestaurantsUITests.swift */; };
 		52E084522C575F69008C5159 /* BackCAPS_RestaurantsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084512C575F69008C5159 /* BackCAPS_RestaurantsUITestsLaunchTests.swift */; };
+		52E084642C5761D6008C5159 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084632C5761D6008C5159 /* HomeScreen.swift */; };
+		52E084662C5761E2008C5159 /* FoodScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084652C5761E2008C5159 /* FoodScreen.swift */; };
+		52E084682C5761ED008C5159 /* DineInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084672C5761ED008C5159 /* DineInScreen.swift */; };
+		52E0846A2C5761F8008C5159 /* MartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084692C5761F8008C5159 /* MartScreen.swift */; };
+		52E0846C2C576209008C5159 /* CourierScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0846B2C576209008C5159 /* CourierScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52AEFA862C5778C50066ABF2 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		52AEFA882C5779380066ABF2 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		52AEFA8E2C57AF7B0066ABF2 /* CategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCard.swift; sourceTree = "<group>"; };
+		52AEFA902C58CC1A0066ABF2 /* BackCAPS-Restaurants-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BackCAPS-Restaurants-Info.plist"; sourceTree = SOURCE_ROOT; };
+		52AEFA912C58FC460066ABF2 /* PracticeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFile.swift; sourceTree = "<group>"; };
 		52E084312C575F66008C5159 /* BackCAPS Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackCAPS Restaurants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E084342C575F66008C5159 /* BackCAPS_RestaurantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCAPS_RestaurantsApp.swift; sourceTree = "<group>"; };
-		52E084362C575F66008C5159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52E084362C575F66008C5159 /* RestaurantTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTabView.swift; sourceTree = "<group>"; };
 		52E084382C575F68008C5159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E0843B2C575F68008C5159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52E084412C575F69008C5159 /* BackCAPS RestaurantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackCAPS RestaurantsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,11 @@
 		52E0844B2C575F69008C5159 /* BackCAPS RestaurantsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackCAPS RestaurantsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E0844F2C575F69008C5159 /* BackCAPS_RestaurantsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCAPS_RestaurantsUITests.swift; sourceTree = "<group>"; };
 		52E084512C575F69008C5159 /* BackCAPS_RestaurantsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCAPS_RestaurantsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52E084632C5761D6008C5159 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		52E084652C5761E2008C5159 /* FoodScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScreen.swift; sourceTree = "<group>"; };
+		52E084672C5761ED008C5159 /* DineInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DineInScreen.swift; sourceTree = "<group>"; };
+		52E084692C5761F8008C5159 /* MartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MartScreen.swift; sourceTree = "<group>"; };
+		52E0846B2C576209008C5159 /* CourierScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AEFA832C5776B50066ABF2 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,11 +92,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52AEFA842C5778AD0066ABF2 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				52AEFA862C5778C50066ABF2 /* LottieView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		52AEFA892C5779380066ABF2 /* Lottie Animations */ = {
+			isa = PBXGroup;
+			children = (
+				52AEFA882C5779380066ABF2 /* home.json */,
+			);
+			path = "Lottie Animations";
+			sourceTree = "<group>";
+		};
+		52AEFA8B2C57AF550066ABF2 /* Cell Views */ = {
+			isa = PBXGroup;
+			children = (
+				52AEFA8E2C57AF7B0066ABF2 /* CategoryCard.swift */,
+			);
+			path = "Cell Views";
+			sourceTree = "<group>";
+		};
 		52E084282C575F66008C5159 = {
 			isa = PBXGroup;
 			children = (
 				52E084332C575F66008C5159 /* BackCAPS Restaurants */,
 				52E084442C575F69008C5159 /* BackCAPS RestaurantsTests */,
+				52AEFA892C5779380066ABF2 /* Lottie Animations */,
 				52E0844E2C575F69008C5159 /* BackCAPS RestaurantsUITests */,
 				52E084322C575F66008C5159 /* Products */,
 			);
@@ -94,8 +140,12 @@
 		52E084332C575F66008C5159 /* BackCAPS Restaurants */ = {
 			isa = PBXGroup;
 			children = (
+				52AEFA902C58CC1A0066ABF2 /* BackCAPS-Restaurants-Info.plist */,
+				52E084602C575F95008C5159 /* Model */,
+				52E084612C575FA5008C5159 /* Utilities */,
+				52E0845F2C575F8D008C5159 /* Views */,
+				52E0845E2C575F86008C5159 /* Screens */,
 				52E084342C575F66008C5159 /* BackCAPS_RestaurantsApp.swift */,
-				52E084362C575F66008C5159 /* ContentView.swift */,
 				52E084382C575F68008C5159 /* Assets.xcassets */,
 				52E0843A2C575F68008C5159 /* Preview Content */,
 			);
@@ -127,6 +177,51 @@
 			path = "BackCAPS RestaurantsUITests";
 			sourceTree = "<group>";
 		};
+		52E0845E2C575F86008C5159 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				52E084632C5761D6008C5159 /* HomeScreen.swift */,
+				52E084652C5761E2008C5159 /* FoodScreen.swift */,
+				52E084692C5761F8008C5159 /* MartScreen.swift */,
+				52E084672C5761ED008C5159 /* DineInScreen.swift */,
+				52E0846B2C576209008C5159 /* CourierScreen.swift */,
+				52AEFA912C58FC460066ABF2 /* PracticeFile.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		52E0845F2C575F8D008C5159 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52AEFA8B2C57AF550066ABF2 /* Cell Views */,
+				52E084622C57601F008C5159 /* TabView */,
+				52AEFA842C5778AD0066ABF2 /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52E084602C575F95008C5159 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52E084612C575FA5008C5159 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		52E084622C57601F008C5159 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				52E084362C575F66008C5159 /* RestaurantTabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +238,9 @@
 			dependencies = (
 			);
 			name = "BackCAPS Restaurants";
+			packageProductDependencies = (
+				52AEFA822C5776B50066ABF2 /* Lottie */,
+			);
 			productName = "BackCAPS Restaurants";
 			productReference = 52E084312C575F66008C5159 /* BackCAPS Restaurants.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +313,9 @@
 				Base,
 			);
 			mainGroup = 52E084282C575F66008C5159;
+			packageReferences = (
+				52AEFA812C5776B40066ABF2 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 52E084322C575F66008C5159 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E0843C2C575F68008C5159 /* Preview Assets.xcassets in Resources */,
+				52AEFA8A2C5779380066ABF2 /* home.json in Resources */,
 				52E084392C575F68008C5159 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +359,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E084372C575F66008C5159 /* ContentView.swift in Sources */,
+				52AEFA922C58FC460066ABF2 /* PracticeFile.swift in Sources */,
+				52E084372C575F66008C5159 /* RestaurantTabView.swift in Sources */,
 				52E084352C575F66008C5159 /* BackCAPS_RestaurantsApp.swift in Sources */,
+				52E084642C5761D6008C5159 /* HomeScreen.swift in Sources */,
+				52AEFA8F2C57AF7B0066ABF2 /* CategoryCard.swift in Sources */,
+				52E0846A2C5761F8008C5159 /* MartScreen.swift in Sources */,
+				52E084662C5761E2008C5159 /* FoodScreen.swift in Sources */,
+				52E084682C5761ED008C5159 /* DineInScreen.swift in Sources */,
+				52E0846C2C576209008C5159 /* CourierScreen.swift in Sources */,
+				52AEFA872C5778C50066ABF2 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +534,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BackCAPS Restaurants/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BackCAPS-Restaurants-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +563,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BackCAPS Restaurants/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BackCAPS-Restaurants-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -582,6 +694,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52AEFA812C5776B40066ABF2 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52AEFA822C5776B50066ABF2 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52AEFA812C5776B40066ABF2 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52E084292C575F66008C5159 /* Project object */;
 }
