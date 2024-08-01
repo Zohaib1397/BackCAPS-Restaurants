@@ -11,7 +11,7 @@
 		52AEFA872C5778C50066ABF2 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEFA862C5778C50066ABF2 /* LottieView.swift */; };
 		52AEFA8A2C5779380066ABF2 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 52AEFA882C5779380066ABF2 /* home.json */; };
 		52AEFA8F2C57AF7B0066ABF2 /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEFA8E2C57AF7B0066ABF2 /* CategoryCard.swift */; };
-		52AEFA922C58FC460066ABF2 /* PracticeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEFA912C58FC460066ABF2 /* PracticeFile.swift */; };
+		52AEFA922C58FC460066ABF2 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEFA912C58FC460066ABF2 /* AnimatedButton.swift */; };
 		52E084352C575F66008C5159 /* BackCAPS_RestaurantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084342C575F66008C5159 /* BackCAPS_RestaurantsApp.swift */; };
 		52E084372C575F66008C5159 /* RestaurantTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E084362C575F66008C5159 /* RestaurantTabView.swift */; };
 		52E084392C575F68008C5159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E084382C575F68008C5159 /* Assets.xcassets */; };
@@ -48,7 +48,7 @@
 		52AEFA882C5779380066ABF2 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
 		52AEFA8E2C57AF7B0066ABF2 /* CategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCard.swift; sourceTree = "<group>"; };
 		52AEFA902C58CC1A0066ABF2 /* BackCAPS-Restaurants-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BackCAPS-Restaurants-Info.plist"; sourceTree = SOURCE_ROOT; };
-		52AEFA912C58FC460066ABF2 /* PracticeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFile.swift; sourceTree = "<group>"; };
+		52AEFA912C58FC460066ABF2 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
 		52E084312C575F66008C5159 /* BackCAPS Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackCAPS Restaurants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E084342C575F66008C5159 /* BackCAPS_RestaurantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCAPS_RestaurantsApp.swift; sourceTree = "<group>"; };
 		52E084362C575F66008C5159 /* RestaurantTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTabView.swift; sourceTree = "<group>"; };
@@ -111,6 +111,7 @@
 		52AEFA8B2C57AF550066ABF2 /* Cell Views */ = {
 			isa = PBXGroup;
 			children = (
+				52AEFA912C58FC460066ABF2 /* AnimatedButton.swift */,
 				52AEFA8E2C57AF7B0066ABF2 /* CategoryCard.swift */,
 			);
 			path = "Cell Views";
@@ -185,7 +186,6 @@
 				52E084692C5761F8008C5159 /* MartScreen.swift */,
 				52E084672C5761ED008C5159 /* DineInScreen.swift */,
 				52E0846B2C576209008C5159 /* CourierScreen.swift */,
-				52AEFA912C58FC460066ABF2 /* PracticeFile.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -359,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AEFA922C58FC460066ABF2 /* PracticeFile.swift in Sources */,
+				52AEFA922C58FC460066ABF2 /* AnimatedButton.swift in Sources */,
 				52E084372C575F66008C5159 /* RestaurantTabView.swift in Sources */,
 				52E084352C575F66008C5159 /* BackCAPS_RestaurantsApp.swift in Sources */,
 				52E084642C5761D6008C5159 /* HomeScreen.swift in Sources */,
